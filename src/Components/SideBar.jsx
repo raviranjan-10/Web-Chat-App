@@ -37,13 +37,13 @@ function SideBar() {
     return (<div className="sidebar-container">
         <div className="sb-header">
             
-            <div>
+            <div className="account-icon">
             <IconButton>
                 <AccountCircleSharpIcon />
             </IconButton>
             </div>
-            <div>
-            <IconButton onClick={()=>{navigate('users')}}>
+            <div className="other-icons">
+            <IconButton  onClick={()=>{navigate('users')}}>
                 <PersonAddSharpIcon 
                 />
             </IconButton>
